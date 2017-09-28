@@ -2239,7 +2239,7 @@ describe('TicTacToe', () => {
 
             game.nextTurn(0, 2)
             expect(game.getWinner()).to.equal('o')
-
+			
 
             game = new TicTacToe();
             game.nextTurn(2, 1)
